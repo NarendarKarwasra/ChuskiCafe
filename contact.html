@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Chuski Cafe</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.webp">
+
+    <!-- Bootstrap Icons only (no Bootstrap CSS framework) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="site-header">
+        <nav class="section-container navbar">
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo-primary.webp" alt="Chuski Cafe Logo" class="logo-img">
+            </a>
+
+            <!-- Mobile toggler -->
+            <button class="navbar-toggler" id="navToggler" aria-label="Toggle navigation" aria-expanded="false"
+                aria-controls="mainNav">
+                <i class="bi bi-list"></i>
+            </button>
+
+            <!-- Nav links + actions -->
+            <div class="navbar-collapse" id="mainNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="franchise.html">Franchise</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+
+                <div class="header-actions">
+                    <a href="contact.html#FindCafe" class="btn btn-find-cafe">
+                        <i class="bi bi-geo-alt-fill"></i> Find a Café
+                    </a>
+                    <a href="menu.html" class="btn btn-order-online">
+                        Order Online <i class="bi bi-bag"></i>
+                    </a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero-section contact-hero-section">
+        <div class="section-container hero-inner">
+            <div class="hero-text">
+                <h1>Find Your <br><span class="text-accent">Chuski</span></h1>
+                <div class="hero-bottom-prop">
+                    <img src="images/prop-bottom.webp" alt="">
+                </div>
+                <p class="hero-desc">
+                    Drop by for a good sip, a quick bite, or your next long conversation.
+                </p>
+            </div>
+            <div class="hero-image-space"><!-- hero background image shows here --></div>
+        </div>
+    </section>
+
+
+    <!-- ===== OUR LOCATIONS ===== -->
+    <section class="locations-section" id="FindCafe">
+        <div class="section-container find-cards">
+
+            <div class="find-card">
+                <div class="find-card-image">
+                    <img src="images/fr-format-1.webp" alt="Hazratganj">
+                    <span class="find-card-number">1</span>
+                </div>
+                <div class="find-card-body">
+                    <h3>Hazratganj</h3>
+                    <p>M-1, First Floor, Near PVR Cinemas, Hazratganj, Lucknow, UP 226001</p>
+                    <span class="find-card-hours"><i class="bi bi-clock"></i> 8:00 AM – 11:00 PM</span>
+                    <a href="#" class="btn btn-get-directions">Get Directions <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="find-card">
+                <div class="find-card-image">
+                    <img src="images/fr-format-2.webp" alt="Gomti Nagar">
+                    <span class="find-card-number">2</span>
+                </div>
+                <div class="find-card-body">
+                    <h3>Gomti Nagar</h3>
+                    <p>T-10, Ground Floor, Near Wave Mall, Gomti Nagar, Lucknow, UP 226010</p>
+                    <span class="find-card-hours"><i class="bi bi-clock"></i> 8:00 AM – 11:00 PM</span>
+                    <a href="#" class="btn btn-get-directions">Get Directions <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="find-card">
+                <div class="find-card-image">
+                    <img src="images/fr-format-3.webp" alt="Aliganj">
+                    <span class="find-card-number">3</span>
+                </div>
+                <div class="find-card-body">
+                    <h3>Aliganj</h3>
+                    <p>B-23, Sector C, Aliganj, Lucknow, UP 226024</p>
+                    <span class="find-card-hours"><i class="bi bi-clock"></i> 8:00 AM – 11:00 PM</span>
+                    <a href="#" class="btn btn-get-directions">Get Directions <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== CONTACT / GET IN TOUCH ===== -->
+    <section class="contact-section" id="get-in-touch">
+        <div class="section-container">
+
+            <div class="contact-grid">
+
+                <div class="contact-card card-get-in-touch">
+                    <h3>Get in Touch</h3>
+                    <div class="head-bottom-prop">
+                        <img src="images/prop-bottom.webp" alt="">
+                    </div>
+
+
+                    <ul class="contact-list">
+                        <!-- Phone -->
+                        <li>
+                            <span class="contact-icon">
+                                <i class="bi bi-telephone"></i>
+                            </span>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>
+                                    <a href="tel:+912262014191">022 62014191</a>
+                                </p>
+                            </div>
+                        </li>
+
+                        <!-- Email -->
+                        <li>
+                            <span class="contact-icon">
+                                <i class="bi bi-envelope"></i>
+                            </span>
+                            <div>
+                                <strong>Email</strong>
+                                <p>
+                                    <a href="mailto:hello@chuskicafe.com">hello@chuskicafe.com</a>
+                                </p>
+                            </div>
+                        </li>
+
+                        <!-- WhatsApp -->
+                        <li>
+                            <span class="contact-icon">
+                                <i class="bi bi-whatsapp"></i>
+                            </span>
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <p>
+                                    <a href="https://wa.me/912262014191" target="_blank" rel="noopener noreferrer">
+                                        022 62014191
+                                    </a>
+                                </p>
+                            </div>
+                        </li>
+
+                        <!-- General Enquiries -->
+                        <li>
+                            <span class="contact-icon">
+                                <i class="bi bi-chat-dots"></i>
+                            </span>
+                            <div>
+                                <strong>General Enquiries</strong>
+                                <p>
+                                    <a href="mailto:info@chuskicafe.com">info@chuskicafe.com</a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <img src="images/coffee-cup-sketch.webp" alt="" class="contact-sketch">
+                </div>
+
+                <div class="contact-card card-visit-us">
+                    <h3>Visit Us</h3>
+                    <div class="head-bottom-prop">
+                        <img src="images/prop-bottom.webp" alt="">
+                    </div>
+
+                    <ul class="visit-list">
+                        <li>
+                            <span class="visit-icon"><i class="bi bi-clock"></i></span>
+                            <div>
+                                <strong>Opening Hours</strong>
+                                <div class="visit-hours">
+                                    <span>Monday – Sunday</span>
+                                    <span>8:00 AM – 11:00 PM</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="visit-icon"><i class="bi bi-cup-hot"></i></span>
+                            <div>
+                                <strong>Dine-in</strong>
+                                <p>Relax and enjoy your favorites in a warm, cozy space.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="visit-icon"><i class="bi bi-bag"></i></span>
+                            <div>
+                                <strong>Takeaway</strong>
+                                <p>Grab your go-to Chuski, bites &amp; brews on the move.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="visit-icon"><i class="bi bi-people"></i></span>
+                            <div>
+                                <strong>Group Hangouts Welcome</strong>
+                                <p>From casual meetups to celebrations, we've got space for every story.</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="contact-card card-form">
+                    <h3>Plan an Event or Enquire for Franchise</h3>
+                    <div class="head-bottom-prop">
+                        <img src="images/prop-bottom.webp" alt="">
+                    </div>
+
+                    <form class="contact-form">
+                        <div class="form-row">
+                            <input type="text" name="full_name" placeholder="Full Name" required>
+                            <input type="tel" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-row">
+                            <input type="email" name="email" placeholder="Email Address" required>
+                            <select name="inquiry_type" required>
+                                <option value="" disabled selected>Inquiry Type</option>
+                                <option value="event">Event</option>
+                                <option value="franchise">Franchise</option>
+                                <option value="general">General</option>
+                            </select>
+                        </div>
+                        <input type="text" name="preferred_location" placeholder="Preferred Location (Optional)"
+                            class="form-full">
+                        <textarea name="message" placeholder="Message" rows="3" class="form-full"></textarea>
+
+                        <label class="form-checkbox">
+                            <input type="checkbox" required>
+                            I agree to be contacted by Chuski Cafe.
+                        </label>
+
+                        <button type="submit" class="btn btn-send-inquiry">
+                            Send Inquiry <i class="bi bi-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="contact-bottom-bar">
+            <div class="section-container contact-bottom-inner">
+                <div class="contact-follow">
+                    <span>Follow our journey &amp; stay updated</span>
+                    <div class="contact-socials">
+                        <a href="#"><i class="bi bi-instagram"></i> @chuskicafe</a>
+                        <a href="#"><i class="bi bi-facebook"></i> /ChuskiCafe</a>
+                        <a href="#"><i class="bi bi-whatsapp"></i> Chuski Cafe</a>
+                    </div>
+                </div>
+                <p class="contact-tagline">Good Conversations. Great Coffee. Always Chuski. <i
+                        class="bi bi-cup-straw"></i></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="section-container footer-top">
+
+            <div class="footer-brand">
+                <a href="index.html">
+                    <img src="images/logo-secondry-2.webp" alt="Chuski Cafe Logo" class="footer-logo">
+                </a>
+                <p>A warm neighborhood café serving chai, coffee, comfort food and conversations that matter.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="franchise.html">Franchise</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>For Guests</h4>
+                <ul>
+                    <li><a href="contact.html#FindCafe">Find a Café</a></li>
+                    <li><a href="menu.html">Order Online</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                </ul>
+                <h4 style="margin-top: 14px;">For Partners</h4>
+                <ul>
+                    <li><a href="franchise.html#FranchiseModel">Franchise Model</a></li>
+                    <li><a href="franchise.html#journey-form">Partner With Us</a></li>
+                    <li><a href="downloads.html">Downloads</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col footer-contact">
+                <h4>Get in Touch</h4>
+
+                <ul class="footer-contact-list">
+                    <!-- Phone -->
+                    <li>
+                        <i class="bi bi-telephone-fill"></i>
+                        <a href="tel:+9102262014191">022 62014191</a>
+                    </li>
+
+                    <!-- Email -->
+                    <li>
+                        <i class="bi bi-envelope-fill"></i>
+                        <a href="mailto:hello@chuskicafe.com">hello@chuskicafe.com</a>
+                    </li>
+
+                    <!-- Location -->
+                    <li>
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <a href="https://maps.app.goo.gl/7ECUPQKN5fEaqKUFA" target="_blank" rel="noopener noreferrer">
+                            2nd Floor, Cleand Corporate Office, Kashimira, Mira Road East, Mira Bhayander, Maharashtra -
+                            401107
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <div class="section-container footer-bottom-inner">
+                <!-- Left: copyright -->
+                <p>
+                    © 2026
+                    <a href="https://leadbanana.in/" target="_blank" rel="noopener noreferrer"
+                        class="footer-bottom-link">
+                        LeadBanana India
+                    </a>
+                    . All rights reserved.
+                </p>
+
+                <!-- Middle: developed by -->
+                <a href="https://leadbanana.in/" target="_blank" rel="noopener noreferrer"
+                    class="footer-bottom-developedBy">
+                    <p>Designed & Developed by</p>
+                    <img src="images/leadbanana-logo.webp" alt="LeadBanana" />
+                </a>
+                <div class="footer-legal">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <span>|</span>
+                    <a href="terms.html">Terms &amp; Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- for navbar toggle -->
+    <script>
+        const navToggler = document.getElementById('navToggler');
+        const mainNav = document.getElementById('mainNav');
+
+        navToggler.addEventListener('click', () => {
+            mainNav.classList.toggle('show');
+            const expanded = mainNav.classList.contains('show');
+            navToggler.setAttribute('aria-expanded', expanded);
+        });
+
+        // Close mobile menu when a nav link is clicked
+        document.querySelectorAll('#mainNav .nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                mainNav.classList.remove('show');
+                navToggler.setAttribute('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+
+</html>
